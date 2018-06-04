@@ -1,2 +1,7 @@
 Steps to encrypt maven password :
 https://maven.apache.org/guides/mini/guide-encryption.html
+Delete looooooong files in windows:
+
+mkdir empty
+robocopy empty directory_with_looooong_files /PURGE
+go and delete empty and directory_with_looooong_files manually

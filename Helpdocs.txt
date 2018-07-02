@@ -5,3 +5,13 @@ Delete looooooong files in windows:
 mkdir empty
 robocopy empty directory_with_looooong_files /PURGE
 go and delete empty and directory_with_looooong_files manually
+
+Generate Code coverage report with RCPTT : 
+https://www.eclipse.org/rcptt/blog/2015/06/17/code-coverage.html
+HIghlights:
+Install EclEmma
+Download JaCoCo agent
+Extract file to some folder (for me it was /Users//codecoverage/jacoco-0.7.5-20150410.145015-6/lib/jacocoagent.jar)
+Import, Build and Run your project
+Open Run configuration
+Add -javaagent:/Users//codecoverage/jacoco-0.7.5-20150410.145015-6/lib/jacocoagent.jar=destfile=/Users//codecoverage/test.exec to VM arguments
